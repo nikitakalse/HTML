@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML links</title>
+    </head>
+    <body>
+        <a href="https://www.google.com">vist google</a>
+    </body>
+</html>
