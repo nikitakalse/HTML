@@ -1,0 +1,19 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+
+</head>
+<body>
+    <lable form="#">email:</lable>
+    <input typr="text" name="#"id="#" placeholder="Enter your email"><br><br>
+    <lable for="#">password:</lable>
+    <input type="password"name="#"id="#" placeholder="enter password"><br><br>
+    <lable for="#">confirm password:</lable>
+    <input type="password"name="#"id="#" placeholder="reenter password"><br><br>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+</body>
+</html>
