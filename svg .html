@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cartoon Hero SVG</title>
+<style>
+  body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#eaf7ff;
+  }
+</style>
+</head>
+<body>
+
+<svg width="400" height="500" viewBox="0 0 400 500">
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="#bfe8ff"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="120" r="55" fill="#f2c29b"/>
+
+  <!-- Hair -->
+  <path d="M145 110
+           Q200 40 255 110
+           L255 85
+           Q200 20 145 85 Z"
+        fill="#222"/>
+
+  <!-- Eyes -->
+  <circle cx="180" cy="115" r="5"/>
+  <circle cx="220" cy="115" r="5"/>
+
+  <!-- Smile -->
+  <path d="M180 145 Q200 160 220 145"
+        stroke="#000"
+        stroke-width="3"
+        fill="none"/>
+
+  <!-- Body -->
+  <rect x="155" y="180" width="90" height="110"
+        rx="15" fill="#ff8c00"/>
+
+  <!-- Arms -->
+  <line x1="155" y1="210" x2="105" y2="260"
+        stroke="#f2c29b"
+        stroke-width="15"
+        stroke-linecap="round"/>
+
+  <line x1="245" y1="210" x2="295" y2="260"
+        stroke="#f2c29b"
+        stroke-width="15"
+        stroke-linecap="round"/>
+
+  <!-- Hands -->
+  <circle cx="105" cy="260" r="10" fill="#f2c29b"/>
+  <circle cx="295" cy="260" r="10" fill="#f2c29b"/>
+
+  <!-- Legs -->
+  <line x1="180" y1="290" x2="170" y2="390"
+        stroke="#2b2b2b"
+        stroke-width="16"
+        stroke-linecap="round"/>
+
+  <line x1="220" y1="290" x2="230" y2="390"
+        stroke="#2b2b2b"
+        stroke-width="16"
+        stroke-linecap="round"/>
+
+  <!-- Shoes -->
+  <ellipse cx="165" cy="405" rx="20" ry="10" fill="#444"/>
+  <ellipse cx="235" cy="405" rx="20" ry="10" fill="#444"/>
+
+  <!-- Belt -->
+  <rect x="155" y="250" width="90" height="12"
+        fill="#8b0000"/>
+
+</svg>
+
+</body>
+</html>
+
+Save it as hero.html and open it in a browser to see the SVG character.
